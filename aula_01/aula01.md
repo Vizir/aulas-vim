@@ -53,3 +53,43 @@ Lembre-se! Na maioria das vezes, se algo aconteceu de estranho, aperte `ESC`.
 - Para sair do modo de inserção
 - Para sair do modo visual
 - Para sair do modo de edição de textos nessa partezinha de baixo que apareceu quando você apertou os dois pontos!!
+
+## Movimentando-se pelo texto++
+
+`h,j,k,l` são legais, mas movimentam o cursor uma posição por vez! Onde está a produtividade nisso?
+
+### Movimentando-se pelas palavras
+
+Experimente:
+```
+w - Para ir para o começo da próxima palavra
+e - Para ir para o final da próxima palavra
+b - Para voltar para o começo das palavras
+```
+
+### Movimentando-se pela linha
+
+Legal! Agora você consegue ir se movimentando pelas palavras de uma linha! Mas suponha que você tenha uma linha muito grande que alguém fez, possivelmente até de propósito, só para ficar grande mesmo e você ter que ficar perdendo tempo avançando pelas palavras só para chegar até o final desta linha realmente grande que essa pessoa, que não tem um bom coração, montou para você!
+
+Seus problemas "se acabaram-se!":
+```
+0 - Vai para o começo da linha
+$ - Vai para o final da linha
+N| - Onde N é um número - Vai para o N-ésimo caractere da linha
+```
+Experimente com a linha grande acima!
+
+### Avançando páginas
+
+Se você não está utilizando um monitor de 42" na vertical, possivelmente este texto já tem mais de uma página!
+
+Eis aqui algumas teclas legais para você:
+```
+Ctrl-f - Avança uma página para baixo (Que nem o `Pg Dn`)
+Ctrl-b - Avança uma página para baixo (Que nem o `Pg Up`)
+zz - Faz com que a linha atual vire a "linha do meio da tela"
+gg - Vai para a primeira linha do arquivo
+G - Vai para a última linha do arquivo
+:N - Onde N é um número - Vai para a N-ésima linha do arquivo
+N% - Onde N é um número - Vai para a linha que está nos N% do arquivo
+```
