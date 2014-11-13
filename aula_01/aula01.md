@@ -92,4 +92,5 @@ gg - Vai para a primeira linha do arquivo
 G - Vai para a última linha do arquivo
 :N - Onde N é um número - Vai para a N-ésima linha do arquivo
 N% - Onde N é um número - Vai para a linha que está nos N% do arquivo
+Ctrl-o - Para voltar onde você estava, antes de um `gg` ou `G`
 ```
