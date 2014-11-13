@@ -43,3 +43,13 @@ v - Modo visual "por caracteres"
 V - Modo visual "por linha"
 Ctrl-V - Modo visual "por coluna"
 ```
+
+## ESC, a sua tecla amiga
+
+Lembre-se! Na maioria das vezes, se algo aconteceu de estranho, aperte `ESC`.
+
+`ESC` serve, dentre outras coisas:
+
+- Para sair do modo de inserção
+- Para sair do modo visual
+- Para sair do modo de edição de textos nessa partezinha de baixo que apareceu quando você apertou os dois pontos!!
