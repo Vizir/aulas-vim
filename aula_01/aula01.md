@@ -147,3 +147,23 @@ P - Cola da posição do cursor pra trás (se foi uma cópia de linha, na linha 
 Se você por alguma acaso já escreveu alguma palavra e, digitando em velocidades super sônicas, trocou alguns caracteres de posição... Já pensou em apagar um caractere e colá-lo logo em seguida?
 
 Brinque com esta palavar. Coloque o cursor em cima to último 'a' e 'xp' nela!
+
+## Composição de comandos
+
+Lembre-se que somos preguiçosos e que preferimos digitar o mínimo possível!
+
+Alguns comandos do vim podem ser compostos com outros, com repetições....
+```
+d2w - Apaga as 2 próximas palavras
+fa - Vai até o próximo 'a', inclusive
+ta - Vai até o próximo 'a'
+dfa - Apaga até o próximo 'a', inclusive
+dta - Apaga até o próximo 'a'
+dG - Apaga do cursor, até o final do arquivo
+```
+```
+3i<letra><ESC> - 3, depois i, depois um caractere qualquer, depois `ESC` - Insere um caractere 3 vezes, numa tacada só!
+3o<ESC> - 3, depois o, depois `ESC` - Insere 3 linhas em branco, numa tacada só!
+```
+
+**Dica:** `J` junta duas linhas... e `3J`???
