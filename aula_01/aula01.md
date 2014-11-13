@@ -94,3 +94,15 @@ G - Vai para a última linha do arquivo
 N% - Onde N é um número - Vai para a linha que está nos N% do arquivo
 Ctrl-o - Para voltar onde você estava, antes de um `gg` ou `G`
 ```
+
+## Finalmente! Escrevendo alguma coisa!
+
+Para que serve um editor de texto se você não puder escrever nada?
+```
+i - Para começar a escrever a partir da posição do cursor
+I - Para começar a escrever, no começo da linha, independentemente de onde você está
+a - Para começar a escrever, na posição seguinte do cursor
+A - Para começar a escrever, no final da linha, independentemente de onde você está
+o - Para adicionar uma linha abaixo e já começar a escrever
+O - Para adicionar uma linha acima e já começar a escrever
+```
