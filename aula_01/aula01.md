@@ -130,3 +130,20 @@ Bom, pra você, que comete erros e pensou: `"Ahhh mas desde o notepad eu tenho o
 u - Desfaz (O famoso Ctrl-z)
 Ctrl-r - Refaz (Ctrl-y ou Ctrl-Shift-z)
 ```
+
+## Copiando
+
+`O que seria do conhecimento humano se não fosse o Ctrl-C e o Ctrl-V?`
+
+```
+dd - Recorta a linha atual (Perceba que não é a primeira vez que este comando aparece)
+y - Copia o que estiver selecionado
+yy - Copia a linha
+p - Cola da posição do cursor pra frente (se foi uma cópia de linha, na linha de baixo)
+P - Cola da posição do cursor pra trás (se foi uma cópia de linha, na linha de cima)
+```
+**Dica:** Você já sabe apagar... você já sabe copiar... você já sabe colar...você erra na hora de escrever...
+
+Se você por alguma acaso já escreveu alguma palavra e, digitando em velocidades super sônicas, trocou alguns caracteres de posição... Já pensou em apagar um caractere e colá-lo logo em seguida?
+
+Brinque com esta palavar. Coloque o cursor em cima to último 'a' e 'xp' nela!
