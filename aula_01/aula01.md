@@ -106,3 +106,27 @@ A - Para começar a escrever, no final da linha, independentemente de onde você
 o - Para adicionar uma linha abaixo e já começar a escrever
 O - Para adicionar uma linha acima e já começar a escrever
 ```
+**OBS:** Para sair do modo de inserção, utilize sua tecla amiga: `ESC`
+
+## Apagando!!
+
+Bom, pra você, que comete erros:
+```
+x - Apaga a letra na posição do cursor (delete)
+X - Apaga a letra anterior à posição do cursor (backspace)
+dw - Apaga uma palavra
+dd - Apaga a linha atual
+D - Apaga tudo, do cursor pra frente
+C - Apaga tudo, do cursor pra frente, e entra no modo de inserção
+
+rx - Substitui o caractere atual por 'x'
+R - Passa por cima e vai substituindo
+```
+
+## Ctrl-Z
+
+Bom, pra você, que comete erros e pensou: `"Ahhh mas desde o notepad eu tenho o ctrl-z pra me salvar!"`
+```
+u - Desfaz (O famoso Ctrl-z)
+Ctrl-r - Refaz (Ctrl-y ou Ctrl-Shift-z)
+```
