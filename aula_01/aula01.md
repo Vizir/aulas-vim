@@ -34,3 +34,12 @@ k - Para ir para cima, uma posição
 l - Para ir para a direita, uma posição
 ```
 **ATENÇÃO:** Muito cuidado com o CAPS-LOCK!
+
+## Modos visuais
+
+Para ativar o modo visual existem três formas possíveis:
+```
+v - Modo visual "por caracteres"
+V - Modo visual "por linha"
+Ctrl-V - Modo visual "por coluna"
+```
