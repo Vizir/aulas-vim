@@ -176,3 +176,21 @@ Quem Nunca, sem QUERER escreveu algo COM CAPS LOCK ATIVADO ou não, e teve que t
 gu<h,j,k,l,$,0> - Deixa em minúsculas o caractere na direção do movimento que foi feito
 gU<h,j,k,l,$,0> - Deixa em minúsculas o caractere na direção do movimento que foi feito
 ```
+
+## Chegando em lugares
+
+```
+:N - Vai até a linha N
+NG - Vai até a linha N
+ta - Vai até o caractere 'a'
+fa - Vai até o caractere 'a', inclusive
+```
+**Dica:** Depois de utilizar um `f/t` repita o procedimento com:
+```
+, - Match anterior
+; - Match posterior
+```
+
+Se você, por algum acaso, trabalha com código, isto pode ser útil: `%`
+
+Coloque o seu cursor em cima de um `{[()]}` e aperte `%` !!!! It is magic!!!!
