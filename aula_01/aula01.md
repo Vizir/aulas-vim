@@ -235,3 +235,18 @@ Se você não está muito seguro da sua substituição, coloque `c` no final da 
 ```
 :%s/original/modificado/c
 ```
+
+## O poder da invocação!
+
+Sabia que de dentro do vim você pode invocar comandos do seu terminal sem fechá-lo!? Experimente, por exemplo:
+```
+:!ls
+```
+Para qualquer comando que você colocar, o vim vai mostrar o resultado e esperar que você aperte <Enter> para voltar para ele.
+
+### Legal, bacaninha, mas e se eu quiser copiar e colar o conteúdo da saída do meu terminal, hein!?
+
+Não subestime este humilde editor de texto, experimente:
+```
+:read !ls
+```
