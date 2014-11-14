@@ -207,3 +207,31 @@ Por padrão a busca é case sensitive, para ignorar os cases adicione `\c` ao fi
 ```
 /bom dia\c<ENTER>
 ```
+
+## E a substituição?
+
+Do que adianta procurar as coisas se não podemos alterá-las!?
+
+Para fazer uma substituição temos que utilizar o famoso `s/original/modificado/`, da seguinte forma:
+```
+:<delimitador>s/original/modificado/
+```
+
+Onde o <delimitador> diz o escopo da mudança:
+```
+% - Todo o arquivo
+3,19 - Range de linhas
+'<,'> - Seleção visual - (Não precisa colocar esses caracteres estranhos, basta fazer uma seleção visual e apertar os dois pontos)
+```
+
+Então, por exemplo, nossa busca pode ser:
+```
+:%s/original/modificado/
+:3,19s/original/modificado/
+:'<,'>s/original/modificado/
+```
+
+Se você não está muito seguro da sua substituição, coloque `c` no final da substituição para ir confirmando uma a uma:
+```
+:%s/original/modificado/c
+```
