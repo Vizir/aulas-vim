@@ -173,6 +173,6 @@ dG - Apaga do cursor, até o final do arquivo
 Quem Nunca, sem QUERER escreveu algo COM CAPS LOCK ATIVADO ou não, e teve que trocar na mão As Palavras Que Acabaram Ficando EscRitAs de alguMA forma EStRaNHa?
 ```
 ~ - Troca o case do caractere onde está o cursor
-gu<h,j,k,l> - Deixa em minúsculas o caractere na direção do movimento que foi feito
-gU<h,j,k,l> - Deixa em minúsculas o caractere na direção do movimento que foi feito
+gu<h,j,k,l,$,0> - Deixa em minúsculas o caractere na direção do movimento que foi feito
+gU<h,j,k,l,$,0> - Deixa em minúsculas o caractere na direção do movimento que foi feito
 ```
