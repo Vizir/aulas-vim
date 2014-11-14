@@ -194,3 +194,16 @@ fa - Vai até o caractere 'a', inclusive
 Se você, por algum acaso, trabalha com código, isto pode ser útil: `%`
 
 Coloque o seu cursor em cima de um `{[()]}` e aperte `%` !!!! It is magic!!!!
+
+## Cadê o Ctrl-F??
+
+Para você que não decorou todo o texto e não sabe exatamente onde as coisas estão, talvez a busca seja útil para você!
+
+Para iniciar uma busca, no modo normal, basta pressionar '/' e começar a digitar a palavra que você quer buscar, e logo em seguida, dar um `Enter`. Por exemplo:
+```
+/bom dia<ENTER>
+```
+Por padrão a busca é case sensitive, para ignorar os cases adicione `\c` ao final da busca:
+```
+/bom dia\c<ENTER>
+```
