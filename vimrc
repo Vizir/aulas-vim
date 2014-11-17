@@ -117,6 +117,11 @@ vmap <silent> <leader>c :TComment<CR>
 nnoremap <C-J> m`o<Esc>``
 nnoremap <C-K> m`O<Esc>``
 
+" Set ultisnips triggers
+let g:UltiSnipsExpandTrigger="<Tab>"
+let g:UltiSnipsJumpForwardTrigger="<Tab>"
+let g:UltiSnipsJumpBackwardTrigger="<S-Tab>""
+
 """"""""""""""""""""
 " Custom status line
 """"""""""""""""""""
