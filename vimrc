@@ -86,10 +86,11 @@ augroup end
 
 runtime macros/matchit.vim " match the opening/closing html tag when pressing '%'
 
-" Open NERDTRee while starting vim and close it when it is the last window
+" Open NERDTRee while starting vim if no file was chosen, and close it when it is the last window.
 augroup NERDTreeCustomCommands
   autocmd!
-  autocmd VimEnter * NERDTree
+  autocmd StdinReadPre * let s:std_in=1
+  autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
   autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 augroup end
 
