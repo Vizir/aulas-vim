@@ -41,6 +41,7 @@ NeoBundle 'drslump/vim-syntax-js'         "  Improves vim js syntax and indentat
 NeoBundle 'vim-scripts/JavaScript-Indent'
 NeoBundle 'gundo'                         "  Gundo - Undo, in small pieces
 NeoBundle 'minibufexpl.vim'               "  Mini-buffer explorer
+NeoBundle "vim-scripts/TaskList.vim"      "  Better Organize your TODOs
 
 call neobundle#end()
 filetype plugin indent on " required
